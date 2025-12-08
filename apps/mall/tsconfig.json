@@ -1,0 +1,22 @@
+// /**
+// 	参考资料
+// 	https://juejin.cn/post/7043723576121229342
+// */
+{
+	// 集成基础配置
+	"extends": "../../tsconfig.base.json",
+	"files": [],
+	"references": [
+		{
+			"path": "./tsconfig.app.json"
+		},
+		{
+			"path": "./tsconfig.node.json"
+		}
+	],
+}
+// 使用纯粹的nuxt生成文件，减少配置
+// {
+// 	// https://nuxt.com/docs/guide/concepts/typescript
+// 	"extends": "./.nuxt/tsconfig.json"
+// }

@@ -1,0 +1,20 @@
+// Element Plus 主题覆盖
+:root {
+	--el-color-primary: #{$xtxColor} !important;
+	--el-color-primary-light-3: #{lighten($xtxColor, 10%)} !important;
+	--el-color-primary-light-5: #{lighten($xtxColor, 20%)} !important;
+	--el-color-primary-light-7: #{lighten($xtxColor, 30%)} !important;
+	--el-color-primary-light-8: #{lighten($xtxColor, 40%)} !important;
+	--el-color-primary-light-9: #{lighten($xtxColor, 50%)} !important;
+	--el-color-primary-dark-2: #{darken($xtxColor, 10%)} !important;
+
+	// 按钮样式覆盖
+	.el-button--primary {
+		--el-button-bg-color: #{$xtxColor};
+		--el-button-border-color: #{$xtxColor};
+		--el-button-hover-bg-color: #{lighten($xtxColor, 10%)};
+		--el-button-hover-border-color: #{lighten($xtxColor, 10%)};
+		--el-button-active-bg-color: #{darken($xtxColor, 10%)};
+		--el-button-active-border-color: #{darken($xtxColor, 10%)};
+	}
+}

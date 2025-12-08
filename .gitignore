@@ -1,0 +1,60 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# vuepress项目的缓存文件和生成产物
+.vuepress/.cache/
+.vuepress/.temp/
+.vuepress/dist/
+
+# 生成的包依赖锁文件 不提交
+package-lock.json
+pnpm-lock.yaml
+stats.html
+
+# 不提供自动生成的类型文件
+auto-imports.d.ts
+components.d.ts
+components-instance.d.ts
+typed-router.d.ts
+
+# 我们自动生成工作区文件 所以不提交到仓库内
+*.code-workspace
+
+# nuxt在开发与构建时产生的文件 需要忽略
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# 忽略掉自己配置的 vitest 报告文件 忽略掉其生成的缓存文件
+.vitest-reporter-html
+
+# 忽略掉 vitest 的过程文件
+vitest.config.ts.timestamp-*.mjs
+*storybook.log

@@ -1,0 +1,33 @@
+// 导入基础样式
+@import "./var.scss";
+@import "./common.scss";
+@import "./element.scss"; // 添加Element主题样式
+
+// 全局容器样式 - 使用更高权重的选择器
+body .container {
+	width: 1240px !important;
+	margin: 0 auto !important;
+	position: relative !important;
+
+	// 移动设备响应式
+	@media (max-width: 1240px) {
+		width: 100% !important;
+		padding: 0 10px !important;
+	}
+}
+
+// 文本省略样式
+.ellipsis {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.ellipsis-2 {
+	word-break: break-all;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}

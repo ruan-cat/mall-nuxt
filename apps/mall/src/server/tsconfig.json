@@ -1,0 +1,4 @@
+// 模仿nuxt模板项目 初始化 server 目录下的内容
+{
+	"extends": "../../.nuxt/tsconfig.server.json"
+}

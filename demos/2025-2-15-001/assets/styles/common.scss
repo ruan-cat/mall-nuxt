@@ -1,0 +1,51 @@
+@import "./var.scss";
+
+// 重置样式
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	font-size: 14px;
+}
+
+body {
+	height: 100%;
+	color: #333;
+	min-width: 1240px;
+	font:
+		1em/1.4 "Microsoft Yahei",
+		"PingFang SC",
+		"Avenir",
+		"Segoe UI",
+		"Hiragino Sans GB",
+		"STHeiti",
+		"Microsoft Sans Serif",
+		"WenQuanYi Micro Hei",
+		sans-serif;
+}
+
+// 公共容器类
+.container {
+	width: 1240px;
+	margin: 0 auto;
+	position: relative;
+}
+
+// 一行省略
+.ellipsis {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+// 二行省略
+.ellipsis-2 {
+	word-break: break-all;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}

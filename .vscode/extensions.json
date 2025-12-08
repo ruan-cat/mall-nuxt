@@ -1,0 +1,12 @@
+{
+	"recommendations": [
+		"Vue.volar",
+		"dbaeumer.vscode-eslint",
+		"antfu.unocss",
+		"lokalise.i18n-ally",
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"editorconfig.editorconfig",
+		"spades.vs-picgo"
+	]
+}
