@@ -2,7 +2,6 @@
 	"name": "mall-nuxt",
 	"type": "module",
 	"private": true,
-	"packageManager": "pnpm@9.15.9",
 	"scripts": {
 		"build": "nuxi build",
 		"dev:pwa": "VITE_PLUGIN_PWA=true nuxi dev",
